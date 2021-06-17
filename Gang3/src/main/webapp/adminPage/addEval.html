@@ -1,0 +1,61 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta name=viewport
+	content="width=device-width, initial-scale=1, user-scalable=0">
+<link rel="stylesheet" href="../css/core.css">
+<title>Gang</title>
+
+<style>
+.desc {
+	float: left;
+	width: 100%;
+	color: #888;
+	font-size: 0.9em;
+}
+</style>
+
+</head>
+<body style="background-color: white">
+	<div class="page-header">
+		<a class="page-header-back noDeco" href="comments.html">👈 Back</a>
+		<div class="header-title">강의 평가 (댓글 작성)</div>
+	</div>
+	<div class="page-content">
+
+
+		<form action="jsp/*****addEval.jsp" method="post"
+			enctype="multipart/form-data">
+			<table align=center style="width: 70%; padding: 30px;">
+				<tr>
+					<td width="80%" height="20" align="center">평점 매기기</td>
+				</tr>
+				<tr>
+					<td width="80%" height="20" align="center"><label for="stars">Choose
+							a star:</label> <select id="stars" name="stars">
+							<option value="1">★</option>
+							<option value="2">★★</option>
+							<option value="3">★★★</option>
+							<option value="4">★★★★</option>
+							<option value="5">★★★★★</option>
+					</select></td>
+				</tr>
+				<tr>
+					<td width="80%" height="20">평가내용</td>
+				</tr>
+				<tr>
+					<td><textarea class="comment-textarea"
+							placeholder="강의의 큰 제목을 입력해주세요." required></textarea></td>
+				</tr>
+
+				<tr>
+					<td width="200" height="100" colspan=2 align=center height=50>
+						<input class="comment-input" type="submit" value="작성완료">
+					</td>
+				</tr>
+			</table>
+		</form>
+	</div>
+	<div class="page-footer">Copyright: Gang.com, 2021</div>
+</body>
+</html>

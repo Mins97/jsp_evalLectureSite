@@ -1,0 +1,98 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta name=viewport
+	content="width=device-width, initial-scale=1, user-scalable=0">
+<link rel="stylesheet" href="../css/core.css">
+<title>Gang</title>
+
+<style>
+.desc {
+	float: left;
+	width: 100%;
+	color: #888;
+	font-size: 0.9em;
+}
+</style>
+
+</head>
+<body style="background-color: white">
+	<div class="page-header">
+		<a class="page-header-back noDeco" href="classes.html">👈 Back</a>
+		<div class="header-title">강의평가 보기</div>
+	</div>
+	<div class="page-content">
+	
+	<!-- 강의 평가 점수 -->
+	<div class="evaluation">
+	강의 평가 점수
+	<div class="evaluation-stars">★★★★☆</div> <!-- 정수로 반영(내림) -->
+	<div class="evaluation-number">4.3/5</div>
+	</div>
+	
+	<!-- 강의상세내용 -->
+	<div class="info-container">
+	<div class="info">
+	<div class="info-title">컴퓨터그래픽스</div> <div class="info-detail">3학년 전선 420 3학점</div>
+	<div class="info-default">애프터이펙트CC2021 한빛 미디어 이수정 2021</div>
+	<div class="info-default">중간시험(30%), 기말시험(30%), 출석(15%), 과제(15%), 기타(10%)	</div>
+	</div>
+	
+	<!-- 강의계획서 -->
+	<a class="plan" href="">
+	📜<br/>
+	<div class="plan-detail">강의계획서(PDF)</div> <!-- !DB에서 저장하기 -->
+	</a>
+	</div>
+	
+	<!-- 댓글들 -->
+	<div class="comments">
+	<b>강의 댓글들</b>(최근 3개) <div class="comment-all" onClick="location.href='jsp/commentList.jsp'" style="cursor:pointer;">더 보기</div>
+		<div class="comment">
+		<div class="comment-name">김민성</div>
+		<div class="comment-msg">교수님 사랑합니다.교수님 사랑합니다.교수님 사랑합니다.교수님 사랑합니다.교수님 사랑합니다.교수님 사랑합니다.교수님 사랑합니다.교수님 사랑합니다.교수님 사랑합니다.교수님 사랑합니다.교수님 사랑합니다.교수님 사랑합니다.교수님 사랑합니다.교수님 사랑합니다.교수님 사랑합니다. 사랑합니다.</div>
+		</div>
+		<div class="comment">
+		<div class="comment-name">김민성</div>
+		<div class="comment-msg">교수님 사랑합니다.</div>
+		</div>
+		<div class="comment">
+		<div class="comment-name">김민성</div>
+		<div class="comment-msg">교수님 사랑합니다.</div>
+		</div>
+	</div>
+	</div>
+	
+	
+	
+	<!-- 연관된 외부강의 -->
+	<div class="otherClasses">
+	<b>연관된 외부강의</b><br/><br/>
+	
+	<table>
+	<tr onClick="location.href='http://www.kmooc.kr/courses/course-v1:PNUk+LD_C01+2020_KM022/about'" style="cursor:pointer;">
+	<td class="otherClass-td">[집콕]딥러닝을 위한 선형대수학</td>
+	<td class="otherClass-td"><img class="otherClass-img" src="http://www.kmooc.kr/asset-v1:PNUk+LD_C01+2020_KM022+type@asset+block@2021_딥러닝을_위한_선형대수학.jpg" /></td>
+	</tr>
+	<tr onClick="location.href='http://www.kmooc.kr/courses/course-v1:SNUk+SNU064.020k+2021_T1/about'"  style="cursor:pointer;">
+	<td class="otherClass-td">데이터로 배우는 통계학</td>
+	<td class="otherClass-td"><img class="otherClass-img" src="http://www.kmooc.kr/asset-v1:SNUk+SNU064.020k+2021_T1+type@asset+block@_크기변환_통계학_썸네일_2021-1.png"/>
+		</td>
+	</tr>
+	<tr onClick="location.href='http://www.kocw.net/home/cview.do?mty=p&kemId=1294429'" style="cursor:pointer;">
+	<td class="otherClass-td">아주대학교 모바일프로그래밍1</td>
+	<td class="otherClass-td"><img class="otherClass-img" src="http://www.kocw.net/home/images/common/noImg.gif"/>
+		</td>
+	</tr>
+	
+	
+	
+
+	
+	</table>
+	
+		
+	</div>
+	<div class="page-footer">Copyright: Gang.com, 2021</div>
+</body>
+</html>

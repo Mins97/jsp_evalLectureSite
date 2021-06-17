@@ -1,0 +1,93 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta name=viewport
+	content="width=device-width, initial-scale=1, user-scalable=0">
+<link rel="stylesheet" href="../css/core.css">
+<title>Gang</title>
+
+<style>
+.desc {
+	float: left;
+	width: 100%;
+	color: #888;
+	font-size: 0.9em;
+}
+</style>
+
+</head>
+<body style="background-color: white">
+	<div class="page-header">
+		<a class="page-header-back noDeco" href="detail.html">👈 Back</a>
+		<div class="header-title">강의 추가하기</div>
+	</div>
+	<div class="page-content">
+
+
+		<form action="jsp/*****addClass.jsp" method="post"
+			enctype="multipart/form-data">
+			<table align=center>
+
+				<tr>
+					<td width="200" height="50" align=right>강의 제목</td>
+					<td width="200" height="50"><input type="text" name="title"
+						placeholder="강의의 제목을 입력해주세요." required></td>
+				</tr>
+
+				<tr>
+					<td width="200" height="50" align=right>학년 선택</td>
+					<td width="200" height="50"><label for="grade">Choose
+							a grade:</label> <select id="grade" name="grade">
+							<option value="1">1학년</option>
+							<option value="2">2학년</option>
+							<option value="3">3학년</option>
+							<option value="4">4학년</option>
+					</select></td>
+				</tr>
+
+
+				<tr>
+					<td width="200" height="50" align=right>전공/필수 여부</td>
+					<td width="200" height="50"><label for="type">Choose
+							a option:</label> <select id="" type"" name=""type"">
+							<option value="전필">전필</option>
+							<option value="전선">전선</option>
+							<option value="교필">교필</option>
+							<option value="교선">교선</option>
+							<option value="기타">기타</option>
+					</select></td>
+				</tr>
+				
+				
+				<tr>
+					<td width="200" height="50" align=right>강의 교재</td>
+					<td width="200" height="50"><input type="text" name="book"
+						placeholder="강의 교재를 입력해주세요" ></td>
+				</tr>
+				
+				<tr>
+					<td width="200" height="100" align=right>평가 기준</td>
+					<td width="200" height="100"><input type="text" name="book"
+						placeholder="평가 기준을 입력해주세요" ></td>
+				</tr>
+				
+
+				<tr>
+					<td width="200" height="50" align=right>강의 썸네일</td>
+					<td width="200" height="50"><input type="file" name="image"></td>
+				</tr>
+				
+				<tr>
+					<td width="200" height="100" colspan=2 align=center height=50>
+						<input class="comment-input" type="submit" value="강의 생성하기">
+					</td>
+				</tr>
+			</table>
+		</form>
+
+
+
+	</div>
+	<div class="page-footer">Copyright: Gang.com, 2021</div>
+</body>
+</html>

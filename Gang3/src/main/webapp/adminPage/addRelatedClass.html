@@ -1,0 +1,52 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta name=viewport
+	content="width=device-width, initial-scale=1, user-scalable=0">
+<link rel="stylesheet" href="../css/core.css">
+<title>Gang</title>
+
+<style>
+.desc {
+	float: left;
+	width: 100%;
+	color: #888;
+	font-size: 0.9em;
+}
+</style>
+
+</head>
+<body style="background-color: white">
+	<div class="page-header">
+		<a class="page-header-back noDeco" href="detail.html">👈 Back</a>
+		<div class="header-title">외부강의 추가하기</div>
+	</div>
+	<div class="page-content">
+	
+
+	<form action="jsp/*****addRelatedClass.jsp" method="post" enctype="multipart/form-data">
+	<table align=center>
+	
+		<tr>
+			<td width="200" height="100" align=right>글제목&nbsp;</td>
+			<td width="200" height="100"><input type="text" name="title" placeholder="강의의 큰 제목을 입력해주세요." required></td>
+		</tr>
+
+		<tr>
+			<td width="200" height="100" align=right>이미지&nbsp;</td>
+			<td width="200" height="100"><input type="file" name="image"></td>
+		</tr>
+		<tr>
+			<td width="200" height="100" colspan=2 align=center height=50>
+			<input type="submit" value="업로드하기">
+			</td>
+		</tr>
+	</table>
+</form>
+
+	
+		
+	</div>
+	<div class="page-footer">Copyright: Gang.com, 2021</div>
+</body>
+</html>
