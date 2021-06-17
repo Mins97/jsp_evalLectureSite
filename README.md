@@ -1,5 +1,10 @@
 # jsp_evalLectureSite
 jsp_evalLectureSite 강의평가사이트입니다.
+반응형 웹앱으로 모바일 / PC 그리고 다양한 웹사이트의 크기에 대응이 가능합니다.
+좌우 길이는 minWidth로 제한을 둬 깨짐을 방지했습니다.
+jsp / java / DAO / 자바 객체를 활용했습니다.
+프로젝트 기간 : 2
+
 <img width="645" alt="1" src="https://user-images.githubusercontent.com/23623248/122437868-16a7a000-cfd5-11eb-8b2e-a16176dbdf1c.PNG">
 <img width="645" alt="2" src="https://user-images.githubusercontent.com/23623248/122437877-17d8cd00-cfd5-11eb-85f2-60abed3919d2.PNG">
 <img width="645" alt="4" src="https://user-images.githubusercontent.com/23623248/122437879-18716380-cfd5-11eb-8a17-6132c6e0c9f1.PNG">
